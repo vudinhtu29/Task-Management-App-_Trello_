@@ -7,8 +7,40 @@
       "RelativeMoniker": "D:0:0:{DE73CD69-7172-4F26-B21E-07A145CAB2F2}|TaskManagementAPI\\TaskManagementAPI.csproj|solutionrelative:taskmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DE73CD69-7172-4F26-B21E-07A145CAB2F2}|TaskManagementAPI\\TaskManagementAPI.csproj|c:\\users\\tuvd\\documents\\github\\task-management-app-_trello_\\taskmanagementapi\\taskmanagementapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE73CD69-7172-4F26-B21E-07A145CAB2F2}|TaskManagementAPI\\TaskManagementAPI.csproj|solutionrelative:taskmanagementapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE73CD69-7172-4F26-B21E-07A145CAB2F2}|TaskManagementAPI\\TaskManagementAPI.csproj|c:\\users\\tuvd\\documents\\github\\task-management-app-_trello_\\taskmanagementapi\\taskmanagementapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE73CD69-7172-4F26-B21E-07A145CAB2F2}|TaskManagementAPI\\TaskManagementAPI.csproj|solutionrelative:taskmanagementapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DE73CD69-7172-4F26-B21E-07A145CAB2F2}|TaskManagementAPI\\TaskManagementAPI.csproj|c:\\users\\tuvd\\documents\\github\\task-management-app-_trello_\\taskmanagementapi\\taskmanagementapi\\taskmanagementapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{DE73CD69-7172-4F26-B21E-07A145CAB2F2}|TaskManagementAPI\\TaskManagementAPI.csproj|solutionrelative:taskmanagementapi\\taskmanagementapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE73CD69-7172-4F26-B21E-07A145CAB2F2}|TaskManagementAPI\\TaskManagementAPI.csproj|c:\\users\\tuvd\\documents\\github\\task-management-app-_trello_\\taskmanagementapi\\taskmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DE73CD69-7172-4F26-B21E-07A145CAB2F2}|TaskManagementAPI\\TaskManagementAPI.csproj|solutionrelative:taskmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE73CD69-7172-4F26-B21E-07A145CAB2F2}|TaskManagementAPI\\TaskManagementAPI.csproj|c:\\users\\tuvd\\documents\\github\\task-management-app-_trello_\\taskmanagementapi\\taskmanagementapi\\models\\taskmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE73CD69-7172-4F26-B21E-07A145CAB2F2}|TaskManagementAPI\\TaskManagementAPI.csproj|solutionrelative:taskmanagementapi\\models\\taskmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE73CD69-7172-4F26-B21E-07A145CAB2F2}|TaskManagementAPI\\TaskManagementAPI.csproj|c:\\users\\tuvd\\documents\\github\\task-management-app-_trello_\\taskmanagementapi\\taskmanagementapi\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE73CD69-7172-4F26-B21E-07A145CAB2F2}|TaskManagementAPI\\TaskManagementAPI.csproj|solutionrelative:taskmanagementapi\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE73CD69-7172-4F26-B21E-07A145CAB2F2}|TaskManagementAPI\\TaskManagementAPI.csproj|c:\\users\\tuvd\\documents\\github\\task-management-app-_trello_\\taskmanagementapi\\taskmanagementapi\\models\\list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE73CD69-7172-4F26-B21E-07A145CAB2F2}|TaskManagementAPI\\TaskManagementAPI.csproj|solutionrelative:taskmanagementapi\\models\\list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE73CD69-7172-4F26-B21E-07A145CAB2F2}|TaskManagementAPI\\TaskManagementAPI.csproj|c:\\users\\tuvd\\documents\\github\\task-management-app-_trello_\\taskmanagementapi\\taskmanagementapi\\models\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE73CD69-7172-4F26-B21E-07A145CAB2F2}|TaskManagementAPI\\TaskManagementAPI.csproj|solutionrelative:taskmanagementapi\\models\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE73CD69-7172-4F26-B21E-07A145CAB2F2}|TaskManagementAPI\\TaskManagementAPI.csproj|c:\\users\\tuvd\\documents\\github\\task-management-app-_trello_\\taskmanagementapi\\taskmanagementapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE73CD69-7172-4F26-B21E-07A145CAB2F2}|TaskManagementAPI\\TaskManagementAPI.csproj|solutionrelative:taskmanagementapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +50,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\TuVD\\Documents\\GitHub\\Task-Management-App-_Trello_\\TaskManagementAPI\\TaskManagementAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "TaskManagementAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\TuVD\\Documents\\GitHub\\Task-Management-App-_Trello_\\TaskManagementAPI\\TaskManagementAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "TaskManagementAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T03:45:07.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\TuVD\\Documents\\GitHub\\Task-Management-App-_Trello_\\TaskManagementAPI\\TaskManagementAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "TaskManagementAPI\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\TuVD\\Documents\\GitHub\\Task-Management-App-_Trello_\\TaskManagementAPI\\TaskManagementAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "TaskManagementAPI\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T03:44:41.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaskManagementContext.cs",
+              "DocumentMoniker": "C:\\Users\\TuVD\\Documents\\GitHub\\Task-Management-App-_Trello_\\TaskManagementAPI\\TaskManagementAPI\\Models\\TaskManagementContext.cs",
+              "RelativeDocumentMoniker": "TaskManagementAPI\\Models\\TaskManagementContext.cs",
+              "ToolTip": "C:\\Users\\TuVD\\Documents\\GitHub\\Task-Management-App-_Trello_\\TaskManagementAPI\\TaskManagementAPI\\Models\\TaskManagementContext.cs",
+              "RelativeToolTip": "TaskManagementAPI\\Models\\TaskManagementContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T02:31:07.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\TuVD\\Documents\\GitHub\\Task-Management-App-_Trello_\\TaskManagementAPI\\TaskManagementAPI\\Models\\Task.cs",
+              "RelativeDocumentMoniker": "TaskManagementAPI\\Models\\Task.cs",
+              "ToolTip": "C:\\Users\\TuVD\\Documents\\GitHub\\Task-Management-App-_Trello_\\TaskManagementAPI\\TaskManagementAPI\\Models\\Task.cs",
+              "RelativeToolTip": "TaskManagementAPI\\Models\\Task.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T02:27:48.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "List.cs",
+              "DocumentMoniker": "C:\\Users\\TuVD\\Documents\\GitHub\\Task-Management-App-_Trello_\\TaskManagementAPI\\TaskManagementAPI\\Models\\List.cs",
+              "RelativeDocumentMoniker": "TaskManagementAPI\\Models\\List.cs",
+              "ToolTip": "C:\\Users\\TuVD\\Documents\\GitHub\\Task-Management-App-_Trello_\\TaskManagementAPI\\TaskManagementAPI\\Models\\List.cs",
+              "RelativeToolTip": "TaskManagementAPI\\Models\\List.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T02:27:39.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Board.cs",
+              "DocumentMoniker": "C:\\Users\\TuVD\\Documents\\GitHub\\Task-Management-App-_Trello_\\TaskManagementAPI\\TaskManagementAPI\\Models\\Board.cs",
+              "RelativeDocumentMoniker": "TaskManagementAPI\\Models\\Board.cs",
+              "ToolTip": "C:\\Users\\TuVD\\Documents\\GitHub\\Task-Management-App-_Trello_\\TaskManagementAPI\\TaskManagementAPI\\Models\\Board.cs",
+              "RelativeToolTip": "TaskManagementAPI\\Models\\Board.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T02:27:26.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\TuVD\\Documents\\GitHub\\Task-Management-App-_Trello_\\TaskManagementAPI\\TaskManagementAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "TaskManagementAPI\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\TuVD\\Documents\\GitHub\\Task-Management-App-_Trello_\\TaskManagementAPI\\TaskManagementAPI\\Models\\User.cs",
+              "RelativeToolTip": "TaskManagementAPI\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T02:27:12.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\TuVD\\Documents\\GitHub\\Task-Management-App-_Trello_\\TaskManagementAPI\\TaskManagementAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "TaskManagementAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\TuVD\\Documents\\GitHub\\Task-Management-App-_Trello_\\TaskManagementAPI\\TaskManagementAPI\\appsettings.json",
+              "RelativeToolTip": "TaskManagementAPI\\appsettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-25T02:23:01.955Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -32,14 +168,14 @@
               "RelativeDocumentMoniker": "TaskManagementAPI\\Program.cs",
               "ToolTip": "C:\\Users\\TuVD\\Documents\\GitHub\\Task-Management-App-_Trello_\\TaskManagementAPI\\TaskManagementAPI\\Program.cs",
               "RelativeToolTip": "TaskManagementAPI\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T02:19:52.209Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "TaskManagementAPI.http",
               "DocumentMoniker": "C:\\Users\\TuVD\\Documents\\GitHub\\Task-Management-App-_Trello_\\TaskManagementAPI\\TaskManagementAPI\\TaskManagementAPI.http",
               "RelativeDocumentMoniker": "TaskManagementAPI\\TaskManagementAPI.http",
