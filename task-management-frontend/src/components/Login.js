@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import apiClient from '../api'; // Import Axios client
-import './Login.css'; // Import CSS file
+import './css/Login.css'
 
 const Login = () => {
   const [username, setUsername] = useState('');
@@ -10,8 +10,8 @@ const Login = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await apiClient.post('/auth/login', { username, password });
-      console.log(response.data);  // You can save the JWT token here
+      const response = await apiClient.post('/api/auth/login', { username, password });
+      console.log(response.data); 
     } catch (error) {
       setError('Invalid username or password');
     }
@@ -56,8 +56,22 @@ const Login = () => {
           </div>
           <button type="submit" className="login-button">Login</button>
         </form>
+        <div className="social-login-container">
+          <p>Or login with:</p>
+          <div className="social-buttons">
+            <button className="social-button google-button">
+              <img src="/gg.png" alt="Google" className="social-logo" /> Google
+            </button>
+            <button className="social-button facebook-button">
+              <img src="/fb.png" alt="Facebook" className="social-logo" /> Facebook
+            </button>
+            <button className="social-button twitter-button">
+              <img src="/tw.png" alt="Twitter" className="social-logo" /> Twitter
+            </button>
+          </div>
+        </div>
         <div><a href="/forgot-password" className="forgot-password">Forgot Password?</a></div>
-        <div><a href="/register" className="forgot-password">You don't have account? Register Now!</a></div>
+        <div><a href="/register" className="forgot-password">You don't have an account? Register Now!</a></div>
         
       </div>
     </div>

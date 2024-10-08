@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import apiClient from '../api';
-import './Register.css'; // Import CSS file for styling
+import './css/Register.css'; // Import CSS file for styling
 
 const Register = () => {
   const [username, setUsername] = useState('');
@@ -11,7 +11,7 @@ const Register = () => {
   const handleRegister = async (e) => {
     e.preventDefault();
     try {
-      const response = await apiClient.post('/auth/register', { username, password, email });
+      const response = await apiClient.post('/api/auth/register', { username, password, email });
       console.log('User registered:', response.data);
     } catch (error) {
       setError('Registration failed');
@@ -22,7 +22,6 @@ const Register = () => {
     <div className="register-container">
       <div className="register-card">
         <div className="register-logo">
-          {/* Add an image or logo */}
           <img src="/logo.png" alt="logo" />
         </div>
         <h2>Register</h2>
@@ -54,10 +53,13 @@ const Register = () => {
           </div>
           <button type="submit" className="register-button">Register</button>
         </form>
-        <a href="/login" className="forgot-password">Back to login now</a>
+        <a href="/login" className="forgot-password">Login now!</a>
       </div>
     </div>
+
+    
   );
+  
 };
 
 export default Register;
