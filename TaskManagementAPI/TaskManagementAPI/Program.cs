@@ -4,17 +4,31 @@ using TaskManagementAPI.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+// Enable Swagger/OpenAPI
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<TaskManagementContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("TaskManagementDb")));
+// Add the database context
+builder.Services.AddDbContext<TaskManagementContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("TaskManagementDb")));
+
+// Configure CORS to allow the React frontend
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend", policy =>
+    {
+        policy.WithOrigins("http://localhost:3000")
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
 
 var app = builder.Build();
 
-app.UseCors(options => options.WithOrigins("http://localhost:3000").AllowAnyMethod().AllowAnyHeader());
+// Use CORS before any other middleware
+app.UseCors("AllowFrontend");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -23,8 +37,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+// Use Authorization
 app.UseAuthorization();
 
+// Map controllers
 app.MapControllers();
 
 app.Run();

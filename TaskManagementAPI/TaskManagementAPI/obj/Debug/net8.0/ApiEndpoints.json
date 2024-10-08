@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "TaskManagementAPI.Controllers.AuthController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/auth/changePassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TaskManagementAPI.Controllers.ChangePasswordModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagementAPI.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/auth/login",
     "HttpMethod": "POST",
@@ -26,6 +42,38 @@
       {
         "Name": "model",
         "Type": "TaskManagementAPI.Controllers.RegisterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagementAPI.Controllers.AuthController",
+    "Method": "SendOTP",
+    "RelativePath": "api/auth/sendOTP",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TaskManagementAPI.Controllers.ForgotPasswordModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagementAPI.Controllers.AuthController",
+    "Method": "VerifyOTP",
+    "RelativePath": "api/auth/verifyOTP",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TaskManagementAPI.Controllers.VerifyOtpModel",
         "IsRequired": true
       }
     ],
